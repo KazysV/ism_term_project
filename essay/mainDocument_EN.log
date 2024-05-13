@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.16)  21 APR 2024 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.16)  13 MAY 2024 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,7 +824,7 @@ Package caption Info: End \AtBeginDocument code.
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 19.
-<jb_VU_zenklas.pdf, id=48, 501.875pt x 550.055pt>
+<jb_VU_zenklas.pdf, id=60, 501.875pt x 550.055pt>
 File: jb_VU_zenklas.pdf Graphic file (type pdf)
 <use jb_VU_zenklas.pdf>
 Package pdftex.def Info: jb_VU_zenklas.pdf  used on input line 21.
@@ -870,34 +870,43 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 \tf@toc=\write4
 \openout4 = `mainDocument_EN.toc'.
 
- [2] [3] (./introduction.tex) [4] (./section1.tex) [5] (./section2.tex) [6] (./conclusions.tex (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+ [2] (./introduction.tex) [3] (./section1.tex [4]) [5] (./section2.tex [6]) (./section3.tex) (./section4.tex (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-)) [7] (./mainDocument_EN.bbl
+)) [7] [8] (./conclusions.tex) [9]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\T1/stix/m/n/12 "Biometric Sys-tem Mar-ket Size, Share & In-dus-try Growth Anal-y-sis Re-port
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [8
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/stix/m/n/12 by au-then-ti-ca-tion type" by Mar-kets and Mar-kets, 2022. [On-line]. Avail-able:
+ []
 
-] (./mainDocument_EN.aux)
+
+Overfull \hbox (48.34839pt too wide) in paragraph at lines 57--58
+[]\T1/stix/m/n/12 "Pavojai Balti-jos j[]uroje" Li-etu-vos Kar-i-uomen[]e 2024 https://www.youtube.com/watch?v=eVhCDfvb9xU 
+ []
+
+[10] (./mainDocument_EN.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `mainDocument_EN.out' has not changed.
-(rerunfilecheck)             Checksum: 41AAC7D147F2E947FDBBE8BB504E918E;2101.
+(rerunfilecheck)             Checksum: 912BDB8B862806C5041914C67227397A;2439.
  ) 
 Here is how much of TeX's memory you used:
- 23871 strings out of 478287
- 420485 string characters out of 5849289
- 693608 words of memory out of 5000000
- 41682 multiletter control sequences out of 15000+600000
+ 23889 strings out of 478287
+ 420702 string characters out of 5849289
+ 693564 words of memory out of 5000000
+ 41689 multiletter control sequences out of 15000+600000
  508960 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,82p,1079b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb>
-Output written on mainDocument_EN.pdf (8 pages, 163929 bytes).
+Output written on mainDocument_EN.pdf (10 pages, 174725 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

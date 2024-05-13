@@ -1,44 +1,90 @@
-\hspace{1 em} Looking at biometrics from completely technical perspective it could be defined as the measurament and evaluation of the 
-individual specimens unique biological parameters. By looking at the definition, this technology does not seem as it  would be 
-available or even created for humans. However, this is not the case, as biometrics is used in various fields, 
-such as authentication, identification, and access control. Biometrics encompasses the science and technology of measuring and analyzing 
-these distinct traits, enabling accurate and reliable authentication processes.  Many people do not even realize how much of their
-daily activities include biometrics.
+\hspace{1 em} Biometric authentication in means of cybersecurity is a process that
+verifies users identity by evaluating their unique physical or behavioral features. Biometric
+authentication typically is more secure and reliable than traditional methods of authentication. 
 
-\subsection{Biometrics for authentification}
-\hspace{1 em} Biometric authentication is a process of verifying the identity of an individual 
-based on their unique biological characteristics. Biometric authentication relies on a diverse array of
- physiological and behavioral traits, each
- possessing unique characteristics that distinguish individuals from one another.  Physiological biometrics 
- include fingerprints, iris patterns, facial features, and DNA, while behavioral biometrics encompass
-  patterns such as typing rhythm, voice patterns, and gait. These traits are captured and processed using 
-specialized sensors and algorithms, converting them into digital 
- templates for comparison and verification (Jain, Ross, \& Nandakumar, 2016).
+General trend for biometric authentication market share growth is exponential. According
+to Markets and Markets report\cite{marketsandmakets} biometric system market is on trend to 
+double by year 2027. According to the report, main driver for this growth is increasing use of biometric technology in consumer electronics for authentication and identification purposes.
+Also, huge driver for biometric authentication popularity was COVID-19 pandemic, 
+which increased demand for contactless authentication methods. Moreover, biometric authentication
+is getting integrations with various machine learning (ML) and artificial intelligence (AI)
+models\cite{BRI}. As a result, systems are becoming more accurate and reliable.
 
- The adoption of biometric authentication spans various domains, offering enhanced security and convenience. 
- In access control systems, biometrics replace traditional methods like passwords or access cards, mitigating 
- ecurity risks and improving user experience (Li, Ye, \& Wang, 2019). Biometrics also find applications in 
- financial services, border security, healthcare, and consumer electronics, where they play pivotal roles in 
- fraud prevention, identity verification, and user authentication (Amin, Malik, \& Gohar, 2020).
+\subsection{Types of biometric systems}
 
- \subsection{Advantages of biometric authentication}
-    \hspace{1 em} Biometric authentication offers several advantages over traditional authentication methods.
-    First of all, it is more secure due to reliance on unique biological traits or behaviours, which are difficult
-    to replicate or forge. Moreover, biometric authentication tends to be more accurate and reliable than other
-    methods of authentication, once the trait is set up, it is there to stay, but typing in the password 10 times 
-    in a row with no mistakes could be challenging.
+As an alterantive to standard password authentication, these are the most popular biometric based alterantives.
 
-    Biometric methods of authentication offers increased convenience. Users do not need to
-    memorize complex passwords, carry access keys or cards. Including biometrics in the authentication process,
-    could also improve the ergonomics of the devices, for example fingerprint scanner on the back of the phone:
-    unlocking the device while pulling it out of the pocket. Biometric authentication systems also reduce the
-    administrative burden associated with managing passwords, access cards, and other authentication tokens.
+Fingerprint Recognition:
+Arguably the most familiar form of biometric authentication, fingerprint recognition
+ relies on capturing and analyzing the unique patterns present in an individual's 
+ fingerprints. Widely used in smartphones, laptops, and access control systems,
+ fingerprint recognition offers a balance of security and user convenience. 
+ However, concerns about spoofing and privacy have led to advancements in this 
+ technology, such as the incorporation of liveness detection.
 
-    Biometric authentication raises users awareness while enlisting for new services - the process of being
-    verified by fulfilling the tasks while on camera requires users to be present and aware of the process.
+Facial Recognition:
+The advent of facial recognition technology has sparked both excitement and 
+controversy. By analyzing facial features such as the distance between the eyes, 
+nose, and mouth, facial recognition systems can accurately identify individuals. 
+From unlocking smartphones to enhancing surveillance systems, this technology 
+offers unparalleled convenience. Nevertheless, ethical debates surrounding privacy 
+invasion and potential biases in algorithmic decision-making underscore the need 
+for responsible deployment and regulation.
 
-    Identity theft is becoming a growing concern in the digital age, with cybercriminals exploiting vulnerabilities
-    in traditional authentication methods to gain unauthorized access to sensitive information. Biometric authentication
-    offers a robust defense against identity theft, as biometric traits are unique to each individual and cannot be easily
-    replicated or stolen. However, the risk of identity theft emerges again, with the development of machine learning
-    algorithms, that are getting better at replicating biometric traits, such as facial features.
+Iris Recognition:
+Delving deeper into the realm of biometrics, iris recognition stands out for its 
+accuracy and reliability. By capturing the intricate patterns of the iris, which 
+are unique to each individual, this technology offers robust authentication. 
+Commonly used in high-security environments such as border control and government 
+facilities, iris recognition boasts low false acceptance rates. However, concerns 
+about user acceptance, cost, and environmental factors such as lighting conditions
+ pose challenges to widespread adoption.
+
+Voice Recognition:
+The human voice, with its distinct pitch, tone, and cadence, serves as a 
+powerful biometric identifier. Voice recognition technology analyzes these vocal 
+characteristics to verify the identity of individuals. From call centers to smart
+ home devices, voice authentication offers a seamless user experience. Nevertheless, 
+ factors such as background noise, variations in speech patterns, and the potential 
+ for voice recordings raise concerns about security and reliability.
+
+Behavioral Biometrics:
+Beyond physical traits, behavioral biometrics focus on unique patterns in human 
+behavior. This includes typing rhythm, mouse movements, and even gait analysis. 
+By analyzing these behavioral cues, authentication systems can passively verify 
+users without requiring explicit actions. While behavioral biometrics offer 
+continuous authentication and resistance to spoofing, concerns about user privacy 
+and the need for transparent consent mechanisms loom large.
+
+There are even more specialized biometric metrics that can be used for authentication
+, such as retinal scans, hand geometry analysis, scent identification, finger vein scanning,
+thermodynamic biometric matching, gait identification, keystroke matching, ear shape analysis,
+signature confirmation.
+
+\subsection{But how does biometric authentication work?}
+
+\hspace{1 em} The process of authentication independantly on type of biometric system is quite 
+similar. The first stop on authentication roadmap is to map out the data of the selected
+biometric trait. Eligible biometric traits involve several different parts of the human
+body, such as fingerprints, iris, voice, gait, facial features, DNA and many more features.
+
+Enrollment process is the first step in biometric authentication. Before authentication method
+can be employed, the user firstly must enroll their biometric data into a secure system.
+During this process, a user's biometric traits are captured and converted into digital templates using specialized hardware such as fingerprint scanners, iris scanners, or cameras. For instance, in fingerprint authentication, the unique ridges and 
+patterns of a person's fingerprint are scanned and converted into a mathematical 
+algorithm that represents the fingerprint's unique characteristics. This algorithm 
+is then securely stored in a database for future comparison.
+
+Authentication process is a second part of biometric authentication. When a user 
+attempts to access a system or device that utilizes biometric authentication, the 
+system prompts them to provide their biometric data for verification. The captured 
+biometric data is then compared with the stored template in the database. In 
+the case of fingerprint authentication, for example, the user's presented 
+fingerprint is scanned, and its unique features are compared with the stored 
+algorithm. If the presented data closely matches the stored template within an 
+acceptable margin of error, access is granted. Otherwise, the authentication fails.
+
+Biometric authentication systems employ robust encryption techniques to ensure the security and privacy of biometric data. Instead of storing raw biometric data, systems typically store encrypted templates that cannot be reverse-engineered to reconstruct the original biometric information. Additionally, stringent measures are in place to protect against unauthorized access to the biometric database.
+
+Moreover, many biometric authentication systems incorporate liveness detection mechanisms to prevent spoofing attempts. These mechanisms assess the liveliness of the presented biometric data, such as detecting pulse in fingerprint scans or monitoring facial movements during facial recognition.
+

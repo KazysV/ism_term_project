@@ -23,13 +23,6 @@
 \tableofcontents
 
 
-%keywords and notations if needed
-\sectionWithoutNumber{Abbreviations}{keywords}{
-  Biometrics - yada yada yada, \newline
-  Apple touch ID - bin bang
-}
-
-
  %Introduction section: label is sec:intro
 \sectionWithoutNumber{\keyWordIntroduction}{intro}
 \input{introduction.tex}
@@ -41,25 +34,28 @@
 \section{Understanding biometric authentication}\label{sec:definition}
 
 \input{section1.tex}
-
-\section{Biometric systems, components and processes}\label{sec:systems}
+\newpage
+\section{The good, the bad and the ugly}\label{sec:systems}
 
 \input{section2.tex}
-\section{Concerns with biomteric applications}\label{sec:concerns}
-
 \section{Future for biometric authentication}\label{sec:future}
 
-\sectionWithoutNumber{\keyWordConclusions}{conclu}
+\input{section3.tex}
+\section{Biometric authentication not limited to humans?}
+\input{section4.tex}
+
+\sectionWithoutNumber{Conclusions}{conclu}
 \input{conclusions.tex}
 
 %ateities darbų gairės, planas/next steps of the work
-
+\newpage
 
  %file literatureSources.bib
-\referenceSources{literatureSources}
-
-
-
+\begin{thebibliography}{ 9}
+  \bibitem{marketsandmakets}"Biometric System Market Size, Share \& Industry Growth Analysis Report by authentication type" by Markets and Markets, 2022. [Online]. Available: https://www.marketsandmarkets.com/Market-Reports/biometric-system-market-697.html.
+  \bibitem{BRI} Biometric Authentication \& Identification Market Size, Share, Growth, and Industry Analysis, By Type (Hardware, Software, Service and Others), By Application (Government, Banking and Finance, Commercial Application and Others) and Regional Insights and Forecast to 2031 https://www.businessresearchinsights.com/market-reports/biometric-authentication-identification-market-110643
+  \bibitem{podcast} "Pavojai Baltijos jūroje" Lietuvos Kariuomenė 2024 https://www.youtube.com/watch?v=eVhCDfvb9xU 
+\end{thebibliography} 
 %% this part is optional
 %% uncomment if needed appendix
 % \newpage

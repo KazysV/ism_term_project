@@ -2,11 +2,12 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: mainDocument_EN.aux
 The style file: plain.bst
-I found no \citation commands---while reading file mainDocument_EN.aux
 Database file #1: literatureSources.bib
+Warning--I didn't find a database entry for "marketsandmakets"
+Warning--I didn't find a database entry for "BRI"
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            497 strings with 4020 characters,
+            500 strings with 4042 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -45,4 +46,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There were 2 warnings)
